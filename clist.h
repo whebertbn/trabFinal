@@ -86,7 +86,7 @@ bool CList_in(int elem, CList clist);
  */
 size_t CList_count(CList clist, int elem);
 
-/* Retorna endereço (memória) de 'index' na 'clist', 
+/* Retorna endereço (memória) de 'index' na 'clist',
  * ou imprime mensagem de erro e retorna NULL se não existir 'index'.
  * Em Python, equivale a: id(l[i]) # com ressalvas
  */
@@ -140,7 +140,7 @@ CList CList_fromBinFile(char * filename);
  */
 CList CList_copy(CList clist);
 
-/* Gera uma lista que é uma cópia independente de uma sublista de 'clist', 
+/* Gera uma lista que é uma cópia independente de uma sublista de 'clist',
  * entre 'index1' (incluso) e 'index2' (excluso). Retorna lista vazia se falhar por qualquer motivo.
  * Em Python, equivale a: l2 = l[i:j] # com j > i
  */
@@ -156,5 +156,8 @@ CList CList_reversed(CList clist);
  * Em Python, equivale a: l.index(e)
  */
 long long int CList_index(CList clist, int elem);
+
+void selectionSort(CList *clist);
+void insertionSort(CList *clist);
 
 #endif
