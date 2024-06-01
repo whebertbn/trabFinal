@@ -1,0 +1,4 @@
+Manual de utilização
+
+O presente manual tem por objetivo instruir o usuário acerca da utilização do software. 
+Esse programa realiza um estudo de comparação das estruturas de dados de busca e ordenação utilizadas em vários arquivos de tamanhos variados.
